@@ -1,0 +1,25 @@
+2024-11-29 13:51:44.6768 INFO Application started. Press Ctrl+C to shut down. 
+2024-11-29 13:51:44.7206 INFO Hosting environment: Development 
+2024-11-29 13:51:44.7206 INFO Content root path: D:\React JS\ReactCRUDAPI 
+2024-11-29 13:51:44.7484 INFO Request starting HTTP/2 GET https://localhost:44326/swagger - - - 
+2024-11-29 13:51:45.7901 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/index.html - - - 
+2024-11-29 13:51:45.8381 INFO Request finished HTTP/2 GET https://localhost:44326/swagger - 301 - - 1088.9686ms 
+2024-11-29 13:51:46.2026 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/index.html - 200 - text/html;charset=utf-8 413.6491ms 
+2024-11-29 13:51:46.2415 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/swagger-ui-bundle.js - - - 
+2024-11-29 13:51:46.2415 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/swagger-ui.css - - - 
+2024-11-29 13:51:46.2415 INFO Request starting HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-29 13:51:46.2742 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/swagger-ui-standalone-preset.js - - - 
+2024-11-29 13:51:46.2742 INFO Request starting HTTP/2 GET https://localhost:44326/_vs/browserLink - - - 
+2024-11-29 13:51:46.2913 INFO Request finished HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 44.7089ms 
+2024-11-29 13:51:46.3389 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-11-29 13:51:46.3389 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-11-29 13:51:46.3389 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-11-29 13:51:46.3389 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/swagger-ui.css - 200 143943 text/css 103.4676ms 
+2024-11-29 13:51:46.3705 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 96.2849ms 
+2024-11-29 13:51:46.4015 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 161.4115ms 
+2024-11-29 13:51:46.4991 INFO Request finished HTTP/2 GET https://localhost:44326/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 222.2621ms 
+2024-11-29 13:51:46.6995 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - - - 
+2024-11-29 13:51:46.7352 INFO Request starting HTTP/2 GET https://localhost:44326/swagger/favicon-32x32.png - - - 
+2024-11-29 13:51:46.7400 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-11-29 13:51:46.7400 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/favicon-32x32.png - 200 628 image/png 5.1971ms 
+2024-11-29 13:51:46.8561 INFO Request finished HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 156.6934ms 

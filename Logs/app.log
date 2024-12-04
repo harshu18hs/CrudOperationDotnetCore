@@ -1,0 +1,1549 @@
+2024-11-21 18:26:24.8328 Debug Starting application setup... 
+2024-11-21 18:26:25.2119 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-11-21 18:26:25.3042 Debug Hosting starting 
+2024-11-21 18:26:25.4586 Debug Loaded hosting startup assembly ReactCRUDAPI 
+2024-11-21 18:26:25.4586 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-11-21 18:26:25.4586 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-11-21 18:26:25.4896 Info Application started. Press Ctrl+C to shut down. 
+2024-11-21 18:26:25.4896 Info Hosting environment: Development 
+2024-11-21 18:26:25.4896 Info Content root path: D:\React JS\ReactCRUDAPI 
+2024-11-21 18:26:25.4896 Debug Hosting started 
+2024-11-21 18:26:25.5290 Info Request starting HTTP/2 GET https://localhost:44326/swagger/index.html - - - 
+2024-11-21 18:26:25.6651 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-11-21 18:26:25.6902 Debug No candidates found for the request path '/swagger/index.html' 
+2024-11-21 18:26:25.6902 Debug Request did not match any endpoints 
+2024-11-21 18:26:25.8976 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-11-21 18:26:25.8976 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-11-21 18:26:25.9504 Debug Response markup was updated to include Browser Link script injection. 
+2024-11-21 18:26:25.9504 Debug Response markup was updated to include browser refresh script injection. 
+2024-11-21 18:26:25.9578 Debug Connection ID "18374686507052040214" disconnecting. 
+2024-11-21 18:26:25.9578 Info Request finished HTTP/2 GET https://localhost:44326/swagger/index.html - 200 - text/html;charset=utf-8 446.3236ms 
+2024-11-21 18:26:26.0397 Info Request starting HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-21 18:26:26.0397 Info Request starting HTTP/2 GET https://localhost:44326/_vs/browserLink - - - 
+2024-11-21 18:26:26.0542 Debug Connection ID "18230571314681217062" disconnecting. 
+2024-11-21 18:26:26.0542 Info Request finished HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 9.6369ms 
+2024-11-21 18:26:26.1135 Debug Connection ID "18374686507052040216" disconnecting. 
+2024-11-21 18:26:26.1135 Info Request finished HTTP/2 GET https://localhost:44326/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 75.1992ms 
+2024-11-21 18:26:26.1672 Info Request starting HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - - - 
+2024-11-21 18:26:26.1672 Debug No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-11-21 18:26:26.1672 Debug Request did not match any endpoints 
+2024-11-21 18:26:26.3066 Debug Connection ID "18230571314681217064" disconnecting. 
+2024-11-21 18:26:26.3066 Info Request finished HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.5738ms 
+2024-11-21 18:26:53.0017 Info Request starting HTTP/2 GET https://localhost:44326/api/Products - - - 
+2024-11-21 18:26:53.0154 Debug 1 candidate(s) found for the request path '/api/Products' 
+2024-11-21 18:26:53.0216 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/Products' 
+2024-11-21 18:26:53.0216 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:26:53.0216 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:26:53.0216 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:26:53.0616 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:26:53.0659 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:26:53.0659 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:26:53.0659 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:26:53.0659 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:26:53.0659 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:26:53.0659 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:26:53.2293 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-11-21 18:26:53.2523 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:26:53.2523 Info Fetching all products. 
+2024-11-21 18:26:53.7467 Warn No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2024-11-21 18:26:53.8326 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:26:53.8761 Debug Compiling query expression: 
+'DbSet<Product>()' 
+2024-11-21 18:26:54.1733 Debug Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Product>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+        SELECT p.Id, p.Description, p.Name, p.Price
+        FROM Products AS p) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+        SELECT p.Id, p.Description, p.Name, p.Price
+        FROM Products AS p, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Product entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Product instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Product);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Product.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Product)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]: 
+                        {
+                            return 
+                            {
+                                Product instance;
+                                instance = new Product();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<Description>k__BackingField = dataReader.GetString(1);
+                                instance.<Name>k__BackingField = dataReader.GetString(2);
+                                instance.<Price>k__BackingField = dataReader.GetDecimal(3);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Product)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: ReactCRUDAPI.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2024-11-21 18:26:54.2557 Debug Creating DbConnection. 
+2024-11-21 18:26:54.3296 Debug Created DbConnection. (68ms). 
+2024-11-21 18:26:54.3356 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:26:54.6382 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:26:54.6382 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:26:54.6490 Debug Created DbCommand for 'ExecuteReader' (4ms). 
+2024-11-21 18:26:54.6490 Debug Initialized DbCommand for 'ExecuteReader' (10ms). 
+2024-11-21 18:26:54.6581 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:26:54.7129 Info Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:26:54.7534 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:26:54.7728 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:26:54.7728 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:26:54.7728 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:26:54.7728 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:26:54.7847 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 67ms reading results. 
+2024-11-21 18:26:54.7847 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:26:54.7847 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (5ms). 
+2024-11-21 18:26:54.7985 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:26:54.7985 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:26:54.7985 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:26:54.7985 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:26:54.7985 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:26:54.7985 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:26:54.8286 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 1755.1236ms 
+2024-11-21 18:26:54.8286 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:26:54.8315 Debug Connection ID "18374686511347007528" disconnecting. 
+2024-11-21 18:26:54.8315 Debug 'AppDbContext' disposed. 
+2024-11-21 18:26:54.8315 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:26:54.8315 Debug Disposed connection to database '' on server '' (1ms). 
+2024-11-21 18:26:54.8315 Info Request finished HTTP/2 GET https://localhost:44326/api/Products - 200 - application/json;+charset=utf-8 1838.2960ms 
+2024-11-21 18:32:44.9852 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:32:44.9868 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:32:44.9868 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:32:44.9868 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:32:44.9868 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:32:44.9868 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:32:44.9868 Info CORS policy execution successful. 
+2024-11-21 18:32:44.9868 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:32:44.9868 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:32:44.9868 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:32:44.9868 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:32:44.9868 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:32:44.9868 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:32:44.9868 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:32:44.9868 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:32:45.0024 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:32:45.0024 Info Fetching all products. 
+2024-11-21 18:32:45.0317 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:32:45.0317 Debug Creating DbConnection. 
+2024-11-21 18:32:45.0332 Debug Created DbConnection. (0ms). 
+2024-11-21 18:32:45.0332 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:32:45.0332 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:32:45.0332 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:32:45.0332 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:32:45.0332 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:32:45.0332 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:32:45.0495 Info Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:32:45.0495 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:32:45.0495 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:32:45.0495 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:32:45.0495 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:32:45.0495 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:32:45.0495 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-21 18:32:45.0495 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:32:45.0495 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:32:45.0495 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:32:45.0495 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:32:45.0495 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:32:45.0495 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:32:45.0495 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:32:45.0495 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:32:45.0495 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 53.187ms 
+2024-11-21 18:32:45.0495 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:32:45.0495 Debug 'AppDbContext' disposed. 
+2024-11-21 18:32:45.0495 Debug Connection ID "18374686481282236434" disconnecting. 
+2024-11-21 18:32:45.0495 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:32:45.0495 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:32:45.0495 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 74.2800ms 
+2024-11-21 18:37:07.3609 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:37:07.3609 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:37:07.3609 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:37:07.3609 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:07.3617 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:37:07.3617 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:37:07.3617 Info CORS policy execution successful. 
+2024-11-21 18:37:07.3617 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:07.3617 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:37:07.3617 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:37:07.3617 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:37:07.3617 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:37:07.3617 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:37:07.3617 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:37:07.3617 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:07.3617 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:07.3617 Info Fetching all products. 
+2024-11-21 18:37:07.4489 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:37:07.4489 Debug Creating DbConnection. 
+2024-11-21 18:37:07.4489 Debug Created DbConnection. (0ms). 
+2024-11-21 18:37:07.4489 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:07.4647 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:07.4647 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:37:07.4647 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:37:07.4647 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:37:07.4647 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:37:07.4720 Info Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:37:07.4720 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:07.4720 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:07.4720 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:07.4720 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:07.4720 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:07.4720 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results. 
+2024-11-21 18:37:07.4720 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:07.4720 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:37:07.4720 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:37:07.4720 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:37:07.4720 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:37:07.4720 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:37:07.4720 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:37:07.4720 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:37:07.4720 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 113.0897ms 
+2024-11-21 18:37:07.4720 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:07.4720 Debug 'AppDbContext' disposed. 
+2024-11-21 18:37:07.4720 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:07.4720 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:37:07.4720 Debug Connection ID "18302628913014112267" disconnecting. 
+2024-11-21 18:37:07.4720 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 116.4968ms 
+2024-11-21 18:37:18.8014 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/4 - - - 
+2024-11-21 18:37:18.8014 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:37:18.8014 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-21 18:37:18.8014 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:37:18.8014 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:37:18.8014 Info CORS policy execution successful. 
+2024-11-21 18:37:18.8014 Debug The request is a preflight request. 
+2024-11-21 18:37:18.8014 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/4 - 204 - - 8.2234ms 
+2024-11-21 18:37:18.8439 Info Request starting HTTP/2 PUT https://localhost:44326/api/products/4 - application/json 93 
+2024-11-21 18:37:18.8439 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:37:18.8439 Debug Endpoint 'ProductsController.Update (ReactCRUDAPI)' with route pattern 'api/Products/{id}' is valid for the request path '/api/products/4' 
+2024-11-21 18:37:18.8439 Debug Request matched endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:37:18.8439 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:37:18.8439 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:37:18.8439 Info CORS policy execution successful. 
+2024-11-21 18:37:18.8439 Info Executing endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:37:18.8937 Info Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, ReactCRUDAPI.Model.Product) on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:37:18.8937 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:37:18.8937 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:37:18.8937 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:37:18.8937 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:37:18.8937 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:37:18.8937 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:18.8937 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:18.9147 Debug Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:37:18.9245 Debug Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2024-11-21 18:37:18.9245 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:37:18.9245 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:37:18.9245 Debug Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:37:18.9245 Debug Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:37:18.9245 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:37:18.9412 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' using the name '' in request data ... 
+2024-11-21 18:37:18.9412 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-11-21 18:37:18.9912 Debug JSON input formatter succeeded, deserializing to type 'ReactCRUDAPI.Model.Product' 
+2024-11-21 18:37:18.9912 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:37:18.9912 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:37:18.9912 Debug Attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:37:19.0071 Debug Done attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:37:19.0071 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:37:19.0456 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.0511 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-21 18:37:19.0511 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-21 18:37:19.0677 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-21 18:37:19.1920 Debug Creating DbConnection. 
+2024-11-21 18:37:19.1920 Debug Created DbConnection. (0ms). 
+2024-11-21 18:37:19.1920 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.1920 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.1920 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:37:19.1920 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:37:19.2085 Debug Initialized DbCommand for 'ExecuteReader' (10ms). 
+2024-11-21 18:37:19.2085 Debug Executing DbCommand [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:37:19.2756 Info Executed DbCommand (54ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:37:19.2946 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.2946 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 18ms reading results. 
+2024-11-21 18:37:19.2946 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.2946 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:37:19.3167 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.3167 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-21 18:37:19.3167 Info Product with ID: 4 updated successfully. 
+2024-11-21 18:37:19.3167 Info Executing StatusCodeResult, setting HTTP status code 204 
+2024-11-21 18:37:19.3167 Info Executed action ProductsController.Update (ReactCRUDAPI) in 433.0893ms 
+2024-11-21 18:37:19.3167 Info Executed endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:37:19.3167 Debug 'AppDbContext' disposed. 
+2024-11-21 18:37:19.3167 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3167 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:37:19.3167 Debug Connection ID "18230571297501347870" disconnecting. 
+2024-11-21 18:37:19.3167 Info Request finished HTTP/2 PUT https://localhost:44326/api/products/4 - 204 - - 484.9434ms 
+2024-11-21 18:37:19.3506 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:37:19.3506 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:37:19.3506 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:37:19.3506 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:19.3506 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:37:19.3506 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:37:19.3506 Info CORS policy execution successful. 
+2024-11-21 18:37:19.3506 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:19.3506 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:37:19.3506 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:37:19.3506 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:37:19.3506 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:37:19.3506 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:37:19.3506 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:37:19.3506 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:19.3506 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:37:19.3506 Info Fetching all products. 
+2024-11-21 18:37:19.3506 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:37:19.3506 Debug Creating DbConnection. 
+2024-11-21 18:37:19.3506 Debug Created DbConnection. (0ms). 
+2024-11-21 18:37:19.3506 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3506 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3506 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:37:19.3506 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:37:19.3506 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:37:19.3506 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:37:19.3638 Info Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:37:19.3638 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.3638 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.3638 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.3638 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:37:19.3638 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3638 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-21 18:37:19.3638 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3638 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:37:19.3638 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:37:19.3638 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:37:19.3638 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:37:19.3638 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:37:19.3638 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:37:19.3638 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:37:19.3638 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 14.4532ms 
+2024-11-21 18:37:19.3638 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:37:19.3638 Debug 'AppDbContext' disposed. 
+2024-11-21 18:37:19.3638 Debug Connection ID "18374686481282236436" disconnecting. 
+2024-11-21 18:37:19.3638 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:37:19.3638 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:37:19.3638 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 17.3589ms 
+2024-11-21 18:39:33.9782 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:39:33.9782 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:39:33.9782 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:39:33.9782 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:33.9782 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:39:33.9863 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:39:33.9863 Info CORS policy execution successful. 
+2024-11-21 18:39:33.9863 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:33.9863 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:39:33.9863 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:39:33.9863 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:39:33.9863 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:39:33.9863 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:39:33.9863 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:39:33.9863 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:33.9863 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:33.9863 Info Fetching all products. 
+2024-11-21 18:39:34.0070 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:39:34.0070 Debug Creating DbConnection. 
+2024-11-21 18:39:34.0070 Debug Created DbConnection. (0ms). 
+2024-11-21 18:39:34.0070 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:34.0070 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:34.0070 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:39:34.0070 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:34.0070 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:34.0070 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:39:34.0216 Info Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:39:34.0216 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:34.0216 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:34.0216 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:34.0216 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:34.0216 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:34.0216 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 10ms reading results. 
+2024-11-21 18:39:34.0216 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:34.0333 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:39:34.0333 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:39:34.0333 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:39:34.0333 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:39:34.0333 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:39:34.0333 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:39:34.0333 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:39:34.0333 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 48.0161ms 
+2024-11-21 18:39:34.0333 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:34.0333 Debug 'AppDbContext' disposed. 
+2024-11-21 18:39:34.0333 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:34.0333 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:39:34.0333 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 58.6634ms 
+2024-11-21 18:39:46.9697 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/4 - - - 
+2024-11-21 18:39:46.9697 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:39:46.9697 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-21 18:39:46.9697 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:39:46.9697 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:39:46.9707 Info CORS policy execution successful. 
+2024-11-21 18:39:46.9707 Debug The request is a preflight request. 
+2024-11-21 18:39:46.9707 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/4 - 204 - - 2.8627ms 
+2024-11-21 18:39:46.9988 Info Request starting HTTP/2 PUT https://localhost:44326/api/products/4 - application/json 95 
+2024-11-21 18:39:46.9988 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:39:46.9988 Debug Endpoint 'ProductsController.Update (ReactCRUDAPI)' with route pattern 'api/Products/{id}' is valid for the request path '/api/products/4' 
+2024-11-21 18:39:46.9988 Debug Request matched endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:39:46.9988 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:39:46.9988 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:39:46.9988 Info CORS policy execution successful. 
+2024-11-21 18:39:46.9988 Info Executing endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:39:46.9988 Info Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, ReactCRUDAPI.Model.Product) on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:39:46.9988 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:39:46.9988 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:39:46.9988 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:39:46.9988 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:39:46.9988 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:39:46.9988 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:47.0016 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:47.0016 Debug Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:39:47.0016 Debug Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2024-11-21 18:39:47.0016 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:39:47.0016 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:39:47.0016 Debug Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:39:47.0016 Debug Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:39:47.0016 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:39:47.0016 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' using the name '' in request data ... 
+2024-11-21 18:39:47.0016 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-11-21 18:39:47.0016 Debug JSON input formatter succeeded, deserializing to type 'ReactCRUDAPI.Model.Product' 
+2024-11-21 18:39:47.0016 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:39:47.0016 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:39:47.0016 Debug Attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:39:47.0016 Debug Done attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:39:47.0016 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:39:47.0016 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0016 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-21 18:39:47.0176 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-21 18:39:47.0176 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-21 18:39:47.0176 Debug Creating DbConnection. 
+2024-11-21 18:39:47.0176 Debug Created DbConnection. (0ms). 
+2024-11-21 18:39:47.0176 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0176 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0176 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:39:47.0176 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:47.0176 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:47.0176 Debug Executing DbCommand [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:39:47.0380 Info Executed DbCommand (11ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:39:47.0380 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0380 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results. 
+2024-11-21 18:39:47.0380 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0380 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:39:47.0380 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0380 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-21 18:39:47.0380 Info Product with ID: 4 updated successfully. 
+2024-11-21 18:39:47.0380 Info Executing StatusCodeResult, setting HTTP status code 204 
+2024-11-21 18:39:47.0380 Info Executed action ProductsController.Update (ReactCRUDAPI) in 45.2784ms 
+2024-11-21 18:39:47.0380 Info Executed endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:39:47.0380 Debug 'AppDbContext' disposed. 
+2024-11-21 18:39:47.0380 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0380 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:39:47.0380 Debug Connection ID "18086456122310393868" disconnecting. 
+2024-11-21 18:39:47.0380 Info Request finished HTTP/2 PUT https://localhost:44326/api/products/4 - 204 - - 48.4514ms 
+2024-11-21 18:39:47.0614 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:39:47.0614 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:39:47.0614 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:39:47.0614 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:47.0614 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:39:47.0614 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:39:47.0614 Info CORS policy execution successful. 
+2024-11-21 18:39:47.0614 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:47.0614 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:39:47.0614 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:39:47.0614 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:39:47.0614 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:39:47.0614 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:39:47.0614 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:39:47.0614 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:47.0614 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:39:47.0684 Info Fetching all products. 
+2024-11-21 18:39:47.0684 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:39:47.0684 Debug Creating DbConnection. 
+2024-11-21 18:39:47.0684 Debug Created DbConnection. (0ms). 
+2024-11-21 18:39:47.0684 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0684 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0684 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:39:47.0684 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:47.0684 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:39:47.0684 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:39:47.0684 Info Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:39:47.0817 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0817 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0817 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0817 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:39:47.0817 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0817 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results. 
+2024-11-21 18:39:47.0817 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0817 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:39:47.0817 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:39:47.0817 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:39:47.0817 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:39:47.0817 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:39:47.0817 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:39:47.0817 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:39:47.0817 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 20.7468ms 
+2024-11-21 18:39:47.0817 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:39:47.0817 Debug 'AppDbContext' disposed. 
+2024-11-21 18:39:47.0817 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:39:47.0817 Debug Connection ID "18086456122310393870" disconnecting. 
+2024-11-21 18:39:47.0817 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:39:47.0817 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 23.4118ms 
+2024-11-21 18:41:29.5835 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:41:29.5835 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:41:29.5835 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:41:29.5835 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:29.5835 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:29.5835 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:29.5835 Info CORS policy execution successful. 
+2024-11-21 18:41:29.5835 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:29.5835 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:41:29.5835 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:41:29.5835 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:41:29.5835 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:41:29.5835 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:41:29.5835 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:41:29.5835 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:29.5835 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:29.5835 Info Fetching all products. 
+2024-11-21 18:41:29.5835 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:41:29.5835 Debug Creating DbConnection. 
+2024-11-21 18:41:29.5835 Debug Created DbConnection. (0ms). 
+2024-11-21 18:41:29.5835 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:29.5975 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:29.5975 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:29.5975 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:29.5975 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:29.5975 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:29.6130 Info Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:29.6130 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:29.6130 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:29.6130 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:29.6130 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:29.6130 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:29.6130 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 3ms reading results. 
+2024-11-21 18:41:29.6130 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:29.6130 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:29.6130 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:41:29.6130 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:41:29.6130 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:41:29.6130 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:41:29.6130 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:41:29.6130 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:41:29.6130 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 33.5403ms 
+2024-11-21 18:41:29.6130 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:29.6130 Debug 'AppDbContext' disposed. 
+2024-11-21 18:41:29.6130 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:29.6130 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:41:29.6130 Debug Connection ID "18374686511347007530" disconnecting. 
+2024-11-21 18:41:29.6130 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 36.8335ms 
+2024-11-21 18:41:39.9774 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/4 - - - 
+2024-11-21 18:41:39.9774 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:41:39.9774 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-21 18:41:39.9774 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:39.9774 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:39.9774 Info CORS policy execution successful. 
+2024-11-21 18:41:39.9774 Debug The request is a preflight request. 
+2024-11-21 18:41:39.9774 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/4 - 204 - - 3.5251ms 
+2024-11-21 18:41:39.9925 Info Request starting HTTP/2 PUT https://localhost:44326/api/products/4 - application/json 92 
+2024-11-21 18:41:39.9925 Debug 1 candidate(s) found for the request path '/api/products/4' 
+2024-11-21 18:41:39.9925 Debug Endpoint 'ProductsController.Update (ReactCRUDAPI)' with route pattern 'api/Products/{id}' is valid for the request path '/api/products/4' 
+2024-11-21 18:41:39.9925 Debug Request matched endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:41:39.9925 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:39.9925 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:39.9925 Info CORS policy execution successful. 
+2024-11-21 18:41:39.9925 Info Executing endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:41:39.9925 Info Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, ReactCRUDAPI.Model.Product) on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:41:39.9925 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:41:39.9925 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:41:39.9925 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:41:39.9925 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:41:39.9925 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:41:39.9925 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:39.9925 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:39.9925 Debug Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:41:39.9925 Debug Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2024-11-21 18:41:39.9925 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:39.9925 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:39.9925 Debug Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:41:39.9925 Debug Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:39.9925 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:41:39.9925 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' using the name '' in request data ... 
+2024-11-21 18:41:39.9925 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-11-21 18:41:39.9925 Debug JSON input formatter succeeded, deserializing to type 'ReactCRUDAPI.Model.Product' 
+2024-11-21 18:41:39.9925 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:41:39.9925 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:41:39.9925 Debug Attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:41:39.9925 Debug Done attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:41:39.9925 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:41:39.9925 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:39.9925 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-21 18:41:39.9925 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-21 18:41:39.9925 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-21 18:41:39.9925 Debug Creating DbConnection. 
+2024-11-21 18:41:39.9925 Debug Created DbConnection. (0ms). 
+2024-11-21 18:41:39.9925 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:39.9925 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:39.9925 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:39.9925 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:39.9925 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:39.9925 Debug Executing DbCommand [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:41:40.0064 Info Executed DbCommand (6ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2
+OUTPUT 1
+WHERE [Id] = @p3; 
+2024-11-21 18:41:40.0064 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0064 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results. 
+2024-11-21 18:41:40.0064 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0064 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:40.0064 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:40.0064 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-21 18:41:40.0064 Info Product with ID: 4 updated successfully. 
+2024-11-21 18:41:40.0064 Info Executing StatusCodeResult, setting HTTP status code 204 
+2024-11-21 18:41:40.0064 Info Executed action ProductsController.Update (ReactCRUDAPI) in 22.2311ms 
+2024-11-21 18:41:40.0064 Info Executed endpoint 'ProductsController.Update (ReactCRUDAPI)' 
+2024-11-21 18:41:40.0064 Debug 'AppDbContext' disposed. 
+2024-11-21 18:41:40.0064 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0064 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:41:40.0064 Info Request finished HTTP/2 PUT https://localhost:44326/api/products/4 - 204 - - 24.2780ms 
+2024-11-21 18:41:40.0299 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:41:40.0299 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:41:40.0299 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:41:40.0299 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:40.0299 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:40.0299 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:40.0299 Info CORS policy execution successful. 
+2024-11-21 18:41:40.0299 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:40.0299 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:41:40.0299 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:41:40.0299 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:41:40.0299 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:41:40.0299 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:41:40.0299 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:41:40.0299 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:40.0299 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:40.0337 Info Fetching all products. 
+2024-11-21 18:41:40.0337 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:41:40.0337 Debug Creating DbConnection. 
+2024-11-21 18:41:40.0337 Debug Created DbConnection. (0ms). 
+2024-11-21 18:41:40.0337 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0337 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0337 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:40.0337 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:40.0337 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:40.0337 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:40.0337 Info Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:40.0337 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:40.0337 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:40.0337 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:40.0337 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:40.0337 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0337 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results. 
+2024-11-21 18:41:40.0337 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0337 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:40.0337 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:41:40.0337 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:41:40.0337 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:41:40.0337 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:41:40.0337 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:41:40.0337 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:41:40.0337 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 17.0904ms 
+2024-11-21 18:41:40.0337 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:40.0337 Debug 'AppDbContext' disposed. 
+2024-11-21 18:41:40.0337 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:40.0337 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:41:40.0337 Debug Connection ID "18374686481282236438" disconnecting. 
+2024-11-21 18:41:40.0337 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 18.6032ms 
+2024-11-21 18:41:48.8951 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/5 - - - 
+2024-11-21 18:41:48.8951 Debug 1 candidate(s) found for the request path '/api/products/5' 
+2024-11-21 18:41:48.8951 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-21 18:41:48.8951 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:48.8951 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:48.8951 Info CORS policy execution successful. 
+2024-11-21 18:41:48.8951 Debug The request is a preflight request. 
+2024-11-21 18:41:48.8951 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/5 - 204 - - 1.1761ms 
+2024-11-21 18:41:48.8951 Info Request starting HTTP/2 DELETE https://localhost:44326/api/products/5 - - - 
+2024-11-21 18:41:48.8951 Debug 1 candidate(s) found for the request path '/api/products/5' 
+2024-11-21 18:41:48.8951 Debug Endpoint 'ProductsController.Delete (ReactCRUDAPI)' with route pattern 'api/Products/{id}' is valid for the request path '/api/products/5' 
+2024-11-21 18:41:48.8951 Debug Request matched endpoint 'ProductsController.Delete (ReactCRUDAPI)' 
+2024-11-21 18:41:48.8951 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:48.8951 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:48.8951 Info CORS policy execution successful. 
+2024-11-21 18:41:48.8951 Info Executing endpoint 'ProductsController.Delete (ReactCRUDAPI)' 
+2024-11-21 18:41:48.9099 Info Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:41:48.9099 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:41:48.9099 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:41:48.9099 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:41:48.9099 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:41:48.9099 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:41:48.9099 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:48.9099 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:48.9099 Debug Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:41:48.9099 Debug Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2024-11-21 18:41:48.9099 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:48.9099 Debug Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:48.9099 Debug Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2024-11-21 18:41:48.9099 Debug Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2024-11-21 18:41:48.9099 Info Deleting product with ID: 5 
+2024-11-21 18:41:48.9099 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:41:48.9391 Debug Compiling query expression: 
+'DbSet<Product>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)' 
+2024-11-21 18:41:49.0544 Debug Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Product>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Product>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+            SELECT TOP(1) p.Id, p.Description, p.Name, p.Price
+            FROM Products AS p
+            WHERE p.Id == @__p_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+            SELECT TOP(1) p.Id, p.Description, p.Name, p.Price
+            FROM Products AS p
+            WHERE p.Id == @__p_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            Product entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Product instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Product);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Product.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Product)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]: 
+                            {
+                                return 
+                                {
+                                    Product instance;
+                                    instance = new Product();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<Description>k__BackingField = dataReader.GetString(1);
+                                    instance.<Name>k__BackingField = dataReader.GetString(2);
+                                    instance.<Price>k__BackingField = dataReader.GetDecimal(3);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Product)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ReactCRUDAPI.Data.AppDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-11-21 18:41:49.0717 Debug Creating DbConnection. 
+2024-11-21 18:41:49.0717 Debug Created DbConnection. (0ms). 
+2024-11-21 18:41:49.0717 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0717 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0717 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:49.0717 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.0717 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.0717 Debug Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2024-11-21 18:41:49.0717 Info Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2024-11-21 18:41:49.0717 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.0813 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0813 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 3ms reading results. 
+2024-11-21 18:41:49.0813 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0813 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:49.0813 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Unchanged' to 'Deleted'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.0813 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-21 18:41:49.0813 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-21 18:41:49.0813 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-21 18:41:49.0984 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0984 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0984 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:49.0984 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.0984 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.0984 Debug Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [Id] = @p0; 
+2024-11-21 18:41:49.0984 Info Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [Id] = @p0; 
+2024-11-21 18:41:49.0984 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0984 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results. 
+2024-11-21 18:41:49.0984 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0984 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:49.0984 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Deleted' to 'Detached'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.0984 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-21 18:41:49.0984 Info Product with ID: 5 deleted successfully. 
+2024-11-21 18:41:49.0984 Info Executing StatusCodeResult, setting HTTP status code 204 
+2024-11-21 18:41:49.0984 Info Executed action ProductsController.Delete (ReactCRUDAPI) in 200.0918ms 
+2024-11-21 18:41:49.0984 Info Executed endpoint 'ProductsController.Delete (ReactCRUDAPI)' 
+2024-11-21 18:41:49.0984 Debug 'AppDbContext' disposed. 
+2024-11-21 18:41:49.0984 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.0984 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:41:49.0984 Info Request finished HTTP/2 DELETE https://localhost:44326/api/products/5 - 204 - - 206.0377ms 
+2024-11-21 18:41:49.0984 Debug Connection ID "18374686481282236440" disconnecting. 
+2024-11-21 18:41:49.1174 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:41:49.1174 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:41:49.1174 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:41:49.1174 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:49.1174 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:41:49.1174 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:41:49.1174 Info CORS policy execution successful. 
+2024-11-21 18:41:49.1174 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:49.1174 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:41:49.1174 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:41:49.1174 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:41:49.1174 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:41:49.1174 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:41:49.1174 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:41:49.1174 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:49.1174 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:41:49.1174 Info Fetching all products. 
+2024-11-21 18:41:49.1174 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:41:49.1174 Debug Creating DbConnection. 
+2024-11-21 18:41:49.1174 Debug Created DbConnection. (0ms). 
+2024-11-21 18:41:49.1174 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.1174 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.1174 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:41:49.1174 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.1174 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:41:49.1174 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:49.1174 Info Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:41:49.1271 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.1271 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.1271 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:41:49.1271 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.1271 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-21 18:41:49.1271 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.1271 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:41:49.1271 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:41:49.1271 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:41:49.1271 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:41:49.1271 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:41:49.1271 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:41:49.1271 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:41:49.1271 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 10.8228ms 
+2024-11-21 18:41:49.1271 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:41:49.1271 Debug 'AppDbContext' disposed. 
+2024-11-21 18:41:49.1271 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:41:49.1271 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:41:49.1271 Debug Connection ID "18374686481282236442" disconnecting. 
+2024-11-21 18:41:49.1271 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 12.1029ms 
+2024-11-21 18:42:07.8781 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/ - - - 
+2024-11-21 18:42:07.8781 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:42:07.8781 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-21 18:42:07.8781 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:42:07.8781 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:42:07.8781 Info CORS policy execution successful. 
+2024-11-21 18:42:07.8781 Debug The request is a preflight request. 
+2024-11-21 18:42:07.8781 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/ - 204 - - 1.4238ms 
+2024-11-21 18:42:07.8781 Debug Connection ID "18230571297501347872" disconnecting. 
+2024-11-21 18:42:07.8970 Info Request starting HTTP/2 POST https://localhost:44326/api/products/ - application/json 59 
+2024-11-21 18:42:07.8970 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:42:07.8970 Debug Endpoint 'ProductsController.Create (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:42:07.8970 Debug Request matched endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-21 18:42:07.8970 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:42:07.8970 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:42:07.8970 Info CORS policy execution successful. 
+2024-11-21 18:42:07.8970 Info Executing endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-21 18:42:07.9095 Info Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ReactCRUDAPI.Model.Product) on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:42:07.9095 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:42:07.9095 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:42:07.9095 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:42:07.9095 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:42:07.9095 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:42:07.9095 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:42:07.9095 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:42:07.9095 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:42:07.9095 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' using the name '' in request data ... 
+2024-11-21 18:42:07.9095 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-11-21 18:42:07.9095 Debug JSON input formatter succeeded, deserializing to type 'ReactCRUDAPI.Model.Product' 
+2024-11-21 18:42:07.9095 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:42:07.9095 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:42:07.9095 Debug Attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-21 18:42:07.9095 Debug Done attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:42:07.9095 Info Creating a new product. 
+2024-11-21 18:42:07.9095 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:42:07.9314 Debug 'AppDbContext' generated a temporary value for the property 'Product.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:07.9314 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:07.9314 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-21 18:42:07.9314 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-21 18:42:07.9314 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-21 18:42:07.9479 Debug Creating DbConnection. 
+2024-11-21 18:42:07.9479 Debug Created DbConnection. (0ms). 
+2024-11-21 18:42:07.9479 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:07.9479 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:07.9479 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:42:07.9479 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:42:07.9479 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:42:07.9479 Debug Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2); 
+2024-11-21 18:42:07.9699 Info Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2); 
+2024-11-21 18:42:07.9882 Debug The foreign key property 'Product.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-11-21 18:42:07.9882 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:07.9882 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 21ms reading results. 
+2024-11-21 18:42:07.9882 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:07.9882 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:42:07.9882 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:07.9882 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-21 18:42:07.9882 Info Product created successfully with ID: 12 
+2024-11-21 18:42:07.9882 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:42:07.9882 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:42:07.9882 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:42:07.9882 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:42:07.9882 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:42:07.9882 Info Executing CreatedAtActionResult, writing value of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-21 18:42:08.0320 Debug Found the endpoints ProductsController.Get (ReactCRUDAPI) for address (id=[12],action=[Get],controller=[Products]) 
+2024-11-21 18:42:08.0397 Debug Successfully processed template api/Products/{id} for ProductsController.Get (ReactCRUDAPI) resulting in /api/Products/12 and  
+2024-11-21 18:42:08.0397 Debug Link generation succeeded for endpoints ProductsController.Get (ReactCRUDAPI) with result /api/Products/12 
+2024-11-21 18:42:08.0397 Info Executed action ProductsController.Create (ReactCRUDAPI) in 133.0147ms 
+2024-11-21 18:42:08.0397 Info Executed endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-21 18:42:08.0397 Debug 'AppDbContext' disposed. 
+2024-11-21 18:42:08.0397 Debug Connection ID "18158513716348321806" disconnecting. 
+2024-11-21 18:42:08.0397 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0397 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:42:08.0397 Info Request finished HTTP/2 POST https://localhost:44326/api/products/ - 201 - application/json;+charset=utf-8 146.7063ms 
+2024-11-21 18:42:08.0555 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:42:08.0555 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:42:08.0555 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:42:08.0555 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:42:08.0555 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:42:08.0555 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:42:08.0555 Info CORS policy execution successful. 
+2024-11-21 18:42:08.0555 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:42:08.0555 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:42:08.0555 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:42:08.0555 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:42:08.0555 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:42:08.0555 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:42:08.0555 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:42:08.0555 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:42:08.0555 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:42:08.0555 Info Fetching all products. 
+2024-11-21 18:42:08.0555 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:42:08.0555 Debug Creating DbConnection. 
+2024-11-21 18:42:08.0555 Debug Created DbConnection. (0ms). 
+2024-11-21 18:42:08.0555 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0555 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0555 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:42:08.0555 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:42:08.0555 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:42:08.0555 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:42:08.0654 Info Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:42:08.0654 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:08.0654 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:08.0654 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:08.0654 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:42:08.0654 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0654 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-21 18:42:08.0654 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0654 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:42:08.0654 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:42:08.0654 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:42:08.0654 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:42:08.0654 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:42:08.0654 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:42:08.0654 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:42:08.0654 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 11.3578ms 
+2024-11-21 18:42:08.0654 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:42:08.0654 Debug 'AppDbContext' disposed. 
+2024-11-21 18:42:08.0654 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:42:08.0654 Debug Connection ID "18086456126605361168" disconnecting. 
+2024-11-21 18:42:08.0654 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:42:08.0654 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 13.8972ms 
+2024-11-21 18:45:32.6956 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-21 18:45:32.6956 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-21 18:45:32.6956 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-21 18:45:32.6956 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:45:32.6956 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-21 18:45:32.6956 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-21 18:45:32.6956 Info CORS policy execution successful. 
+2024-11-21 18:45:32.6956 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:45:32.6956 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-21 18:45:32.6956 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-21 18:45:32.6956 Debug Execution plan of resource filters (in the following order): None 
+2024-11-21 18:45:32.6956 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-21 18:45:32.6956 Debug Execution plan of exception filters (in the following order): None 
+2024-11-21 18:45:32.6956 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-21 18:45:32.6956 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:45:32.6956 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-21 18:45:32.6956 Info Fetching all products. 
+2024-11-21 18:45:32.6956 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-21 18:45:32.7051 Debug Creating DbConnection. 
+2024-11-21 18:45:32.7051 Debug Created DbConnection. (0ms). 
+2024-11-21 18:45:32.7051 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:45:32.7051 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:45:32.7051 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-21 18:45:32.7051 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:45:32.7051 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-21 18:45:32.7051 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:45:32.7213 Info Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-21 18:45:32.7213 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:45:32.7213 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:45:32.7213 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:45:32.7213 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-21 18:45:32.7213 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:45:32.7213 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-21 18:45:32.7213 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:45:32.7213 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-21 18:45:32.7213 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-21 18:45:32.7213 Debug No information found on request to perform content negotiation. 
+2024-11-21 18:45:32.7213 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-21 18:45:32.7213 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-21 18:45:32.7213 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-21 18:45:32.7213 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-21 18:45:32.7213 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 26.2397ms 
+2024-11-21 18:45:32.7213 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-21 18:45:32.7213 Debug 'AppDbContext' disposed. 
+2024-11-21 18:45:32.7213 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-21 18:45:32.7213 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-21 18:45:32.7213 Debug Connection ID "18302628913014112269" disconnecting. 
+2024-11-21 18:45:32.7213 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 29.3657ms 
+2024-11-22 15:49:35.6908 Debug Starting application setup... 
+2024-11-22 15:49:36.8703 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-11-22 15:49:37.1824 Debug Hosting starting 
+2024-11-22 15:49:37.7286 Debug Loaded hosting startup assembly ReactCRUDAPI 
+2024-11-22 15:49:37.7286 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-11-22 15:49:37.7286 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-11-22 15:49:37.8030 Info Application started. Press Ctrl+C to shut down. 
+2024-11-22 15:49:37.8191 Info Hosting environment: Development 
+2024-11-22 15:49:37.8191 Info Content root path: D:\React JS\ReactCRUDAPI 
+2024-11-22 15:49:37.8469 Debug Hosting started 
+2024-11-22 15:49:37.9981 Info Request starting HTTP/2 GET https://localhost:44326/swagger/index.html - - - 
+2024-11-22 15:49:38.4630 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-11-22 15:49:38.4925 Debug No candidates found for the request path '/swagger/index.html' 
+2024-11-22 15:49:38.4925 Debug Request did not match any endpoints 
+2024-11-22 15:49:38.7598 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-11-22 15:49:38.7598 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-11-22 15:49:38.8406 Debug Response markup was updated to include Browser Link script injection. 
+2024-11-22 15:49:38.8406 Debug Response markup was updated to include browser refresh script injection. 
+2024-11-22 15:49:38.8507 Debug Connection ID "18374686481282236450" disconnecting. 
+2024-11-22 15:49:38.8507 Info Request finished HTTP/2 GET https://localhost:44326/swagger/index.html - 200 - text/html;charset=utf-8 918.5865ms 
+2024-11-22 15:49:38.8884 Info Request starting HTTP/2 GET https://localhost:44326/_vs/browserLink - - - 
+2024-11-22 15:49:38.8884 Info Request starting HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - - - 
+2024-11-22 15:49:38.8970 Info Request finished HTTP/2 GET https://localhost:44326/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 6.0939ms 
+2024-11-22 15:49:38.8970 Debug Connection ID "18302628895834243108" disconnecting. 
+2024-11-22 15:49:38.9909 Debug Connection ID "18230571318976184405" disconnecting. 
+2024-11-22 15:49:38.9909 Info Request finished HTTP/2 GET https://localhost:44326/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 107.7368ms 
+2024-11-22 15:49:39.1274 Info Request starting HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - - - 
+2024-11-22 15:49:39.1274 Debug No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-11-22 15:49:39.1274 Debug Request did not match any endpoints 
+2024-11-22 15:49:39.5129 Info Request finished HTTP/2 GET https://localhost:44326/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 385.7252ms 
+2024-11-22 15:49:39.5129 Debug Connection ID "18374686481282236452" disconnecting. 
+2024-11-22 15:51:11.7552 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-22 15:51:11.7552 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-22 15:51:11.7681 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-22 15:51:11.7681 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:11.7681 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-22 15:51:11.7681 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-22 15:51:11.7681 Info CORS policy execution successful. 
+2024-11-22 15:51:11.7681 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:11.8225 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-22 15:51:11.8225 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-22 15:51:11.8225 Debug Execution plan of resource filters (in the following order): None 
+2024-11-22 15:51:11.8225 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-22 15:51:11.8225 Debug Execution plan of exception filters (in the following order): None 
+2024-11-22 15:51:11.8225 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-22 15:51:11.8225 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:51:11.9848 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-11-22 15:51:12.0027 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:51:12.0027 Info Fetching all products. 
+2024-11-22 15:51:12.3881 Warn No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2024-11-22 15:51:12.4458 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-22 15:51:12.4917 Debug Compiling query expression: 
+'DbSet<Product>()' 
+2024-11-22 15:51:12.7170 Debug Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<Product>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+        SELECT p.Id, p.Description, p.Name, p.Price
+        FROM Products AS p) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Name (string) Required, 2], [Property: Product.Price (decimal) Required, 3] }
+        SELECT p.Id, p.Description, p.Name, p.Price
+        FROM Products AS p, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        Product entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            Product instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(Product);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Product.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (Product)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]: 
+                        {
+                            return 
+                            {
+                                Product instance;
+                                instance = new Product();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<Description>k__BackingField = dataReader.GetString(1);
+                                instance.<Name>k__BackingField = dataReader.GetString(2);
+                                instance.<Price>k__BackingField = dataReader.GetDecimal(3);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Product | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ReactCRUDAPI.Model.Product")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Product)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: ReactCRUDAPI.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2024-11-22 15:51:12.7463 Debug Creating DbConnection. 
+2024-11-22 15:51:12.7687 Debug Created DbConnection. (20ms). 
+2024-11-22 15:51:12.7687 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:13.0309 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:13.0339 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-22 15:51:13.0339 Debug Created DbCommand for 'ExecuteReader' (3ms). 
+2024-11-22 15:51:13.0339 Debug Initialized DbCommand for 'ExecuteReader' (7ms). 
+2024-11-22 15:51:13.0339 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:51:13.0881 Info Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:51:13.1291 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:13.1465 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:13.1465 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:13.1465 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:13.1465 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:13.1465 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 64ms reading results. 
+2024-11-22 15:51:13.1588 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:13.1588 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (4ms). 
+2024-11-22 15:51:13.1588 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-22 15:51:13.1588 Debug No information found on request to perform content negotiation. 
+2024-11-22 15:51:13.1588 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-22 15:51:13.1588 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-22 15:51:13.1588 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-22 15:51:13.1588 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-22 15:51:13.1930 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 1361.5805ms 
+2024-11-22 15:51:13.1930 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:13.1930 Debug Connection ID "18158513720643289098" disconnecting. 
+2024-11-22 15:51:13.1930 Debug 'AppDbContext' disposed. 
+2024-11-22 15:51:13.1930 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:13.1930 Debug Disposed connection to database '' on server '' (1ms). 
+2024-11-22 15:51:13.1930 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 1448.0131ms 
+2024-11-22 15:51:33.9297 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-22 15:51:33.9621 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-22 15:51:33.9621 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-22 15:51:33.9621 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:33.9621 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-22 15:51:33.9621 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-22 15:51:33.9621 Info CORS policy execution successful. 
+2024-11-22 15:51:33.9621 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:33.9621 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-22 15:51:33.9621 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-22 15:51:33.9621 Debug Execution plan of resource filters (in the following order): None 
+2024-11-22 15:51:33.9621 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-22 15:51:33.9621 Debug Execution plan of exception filters (in the following order): None 
+2024-11-22 15:51:33.9621 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-22 15:51:33.9621 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:51:33.9621 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:51:33.9621 Info Fetching all products. 
+2024-11-22 15:51:33.9857 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-22 15:51:33.9865 Debug Creating DbConnection. 
+2024-11-22 15:51:33.9865 Debug Created DbConnection. (0ms). 
+2024-11-22 15:51:33.9865 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:33.9865 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:33.9865 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-22 15:51:33.9865 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-22 15:51:33.9865 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-22 15:51:33.9865 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:51:33.9865 Info Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:51:33.9865 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:33.9865 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:33.9865 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:33.9865 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:51:33.9865 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:33.9865 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-22 15:51:33.9865 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:33.9865 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-22 15:51:33.9865 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-22 15:51:33.9865 Debug No information found on request to perform content negotiation. 
+2024-11-22 15:51:33.9865 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-22 15:51:33.9865 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-22 15:51:33.9865 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-22 15:51:33.9865 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-22 15:51:33.9865 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 33.1898ms 
+2024-11-22 15:51:33.9865 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:51:33.9865 Debug 'AppDbContext' disposed. 
+2024-11-22 15:51:33.9865 Debug Connection ID "18086456122310393874" disconnecting. 
+2024-11-22 15:51:34.0015 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:51:34.0015 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-22 15:51:34.0015 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 72.7581ms 
+2024-11-22 15:52:03.6335 Info Request starting HTTP/2 OPTIONS https://localhost:44326/api/products/ - - - 
+2024-11-22 15:52:03.6636 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-22 15:52:03.6636 Debug Request matched endpoint '405 HTTP Method Not Supported' 
+2024-11-22 15:52:03.6636 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-22 15:52:03.6636 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-22 15:52:03.6636 Info CORS policy execution successful. 
+2024-11-22 15:52:03.6636 Debug The request is a preflight request. 
+2024-11-22 15:52:03.6636 Info Request finished HTTP/2 OPTIONS https://localhost:44326/api/products/ - 204 - - 33.2495ms 
+2024-11-22 15:52:03.6636 Info Request starting HTTP/2 POST https://localhost:44326/api/products/ - application/json 55 
+2024-11-22 15:52:03.6636 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-22 15:52:03.6636 Debug Endpoint 'ProductsController.Create (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-22 15:52:03.6636 Debug Request matched endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-22 15:52:03.6636 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-22 15:52:03.6636 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-22 15:52:03.6636 Info CORS policy execution successful. 
+2024-11-22 15:52:03.6636 Info Executing endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-22 15:52:03.6789 Info Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ReactCRUDAPI.Model.Product) on controller ProductsController (ReactCRUDAPI). 
+2024-11-22 15:52:03.6789 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-22 15:52:03.6789 Debug Execution plan of resource filters (in the following order): None 
+2024-11-22 15:52:03.6789 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-22 15:52:03.6789 Debug Execution plan of exception filters (in the following order): None 
+2024-11-22 15:52:03.6789 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-22 15:52:03.6789 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:52:03.6789 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:52:03.6789 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-22 15:52:03.6896 Debug Attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product' using the name '' in request data ... 
+2024-11-22 15:52:03.6896 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-11-22 15:52:03.7102 Debug JSON input formatter succeeded, deserializing to type 'ReactCRUDAPI.Model.Product' 
+2024-11-22 15:52:03.7102 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-22 15:52:03.7102 Debug Done attempting to bind parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-22 15:52:03.7102 Debug Attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product' ... 
+2024-11-22 15:52:03.7252 Debug Done attempting to validate the bound parameter 'product' of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-22 15:52:03.7252 Info Creating a new product. 
+2024-11-22 15:52:03.7799 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-22 15:52:03.8046 Debug 'AppDbContext' generated a temporary value for the property 'Product.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.8046 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.8158 Debug SaveChanges starting for 'AppDbContext'. 
+2024-11-22 15:52:03.8158 Debug DetectChanges starting for 'AppDbContext'. 
+2024-11-22 15:52:03.8158 Debug DetectChanges completed for 'AppDbContext'. 
+2024-11-22 15:52:03.8831 Debug Creating DbConnection. 
+2024-11-22 15:52:03.8831 Debug Created DbConnection. (0ms). 
+2024-11-22 15:52:03.8831 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.8831 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.8831 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-22 15:52:03.8831 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-22 15:52:03.8831 Debug Initialized DbCommand for 'ExecuteReader' (3ms). 
+2024-11-22 15:52:03.8831 Debug Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2); 
+2024-11-22 15:52:03.9221 Info Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2); 
+2024-11-22 15:52:03.9332 Debug The foreign key property 'Product.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2024-11-22 15:52:03.9332 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9332 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 15ms reading results. 
+2024-11-22 15:52:03.9332 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9332 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-22 15:52:03.9462 Debug An entity of type 'Product' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9462 Debug SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2024-11-22 15:52:03.9462 Info Product created successfully with ID: 13 
+2024-11-22 15:52:03.9462 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-22 15:52:03.9462 Debug No information found on request to perform content negotiation. 
+2024-11-22 15:52:03.9462 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-22 15:52:03.9462 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-22 15:52:03.9462 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-22 15:52:03.9462 Info Executing CreatedAtActionResult, writing value of type 'ReactCRUDAPI.Model.Product'. 
+2024-11-22 15:52:03.9646 Debug Found the endpoints ProductsController.Get (ReactCRUDAPI) for address (id=[13],action=[Get],controller=[Products]) 
+2024-11-22 15:52:03.9646 Debug Successfully processed template api/Products/{id} for ProductsController.Get (ReactCRUDAPI) resulting in /api/Products/13 and  
+2024-11-22 15:52:03.9646 Debug Link generation succeeded for endpoints ProductsController.Get (ReactCRUDAPI) with result /api/Products/13 
+2024-11-22 15:52:03.9710 Info Executed action ProductsController.Create (ReactCRUDAPI) in 291.9078ms 
+2024-11-22 15:52:03.9710 Info Executed endpoint 'ProductsController.Create (ReactCRUDAPI)' 
+2024-11-22 15:52:03.9710 Debug 'AppDbContext' disposed. 
+2024-11-22 15:52:03.9710 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9710 Debug Connection ID "18302628895834243114" disconnecting. 
+2024-11-22 15:52:03.9710 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-22 15:52:03.9710 Info Request finished HTTP/2 POST https://localhost:44326/api/products/ - 201 - application/json;+charset=utf-8 301.6238ms 
+2024-11-22 15:52:03.9710 Info Request starting HTTP/2 GET https://localhost:44326/api/products/ - - - 
+2024-11-22 15:52:03.9710 Debug 1 candidate(s) found for the request path '/api/products/' 
+2024-11-22 15:52:03.9710 Debug Endpoint 'ProductsController.GetAll (ReactCRUDAPI)' with route pattern 'api/Products' is valid for the request path '/api/products/' 
+2024-11-22 15:52:03.9710 Debug Request matched endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:52:03.9710 Debug Static files was skipped as the request already matched an endpoint. 
+2024-11-22 15:52:03.9710 Debug The request has an origin header: 'http://localhost:3000'. 
+2024-11-22 15:52:03.9710 Info CORS policy execution successful. 
+2024-11-22 15:52:03.9710 Info Executing endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:52:03.9710 Info Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsController (ReactCRUDAPI). 
+2024-11-22 15:52:03.9710 Debug Execution plan of authorization filters (in the following order): None 
+2024-11-22 15:52:03.9710 Debug Execution plan of resource filters (in the following order): None 
+2024-11-22 15:52:03.9710 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-22 15:52:03.9710 Debug Execution plan of exception filters (in the following order): None 
+2024-11-22 15:52:03.9710 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-22 15:52:03.9710 Debug Executing controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:52:03.9710 Debug Executed controller factory for controller ProductsController (ReactCRUDAPI) 
+2024-11-22 15:52:03.9710 Info Fetching all products. 
+2024-11-22 15:52:03.9710 Debug Entity Framework Core 9.0.0 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.0' with options: EngineType=SqlServer  
+2024-11-22 15:52:03.9710 Debug Creating DbConnection. 
+2024-11-22 15:52:03.9710 Debug Created DbConnection. (0ms). 
+2024-11-22 15:52:03.9710 Debug Opening connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9710 Debug Opened connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9710 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-11-22 15:52:03.9710 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-11-22 15:52:03.9710 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-11-22 15:52:03.9710 Debug Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:52:03.9878 Info Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p] 
+2024-11-22 15:52:03.9878 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9878 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9878 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9878 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9878 Debug Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-11-22 15:52:03.9878 Debug Closing data reader to 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9878 Debug A data reader for 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results. 
+2024-11-22 15:52:03.9878 Debug Closing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9878 Debug Closed connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB' (0ms). 
+2024-11-22 15:52:03.9878 Debug List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-22 15:52:03.9878 Debug No information found on request to perform content negotiation. 
+2024-11-22 15:52:03.9878 Debug Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-22 15:52:03.9878 Debug Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-22 15:52:03.9878 Debug Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-22 15:52:03.9878 Info Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReactCRUDAPI.Model.Product, ReactCRUDAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-22 15:52:03.9878 Info Executed action ProductsController.GetAll (ReactCRUDAPI) in 11.5523ms 
+2024-11-22 15:52:03.9878 Info Executed endpoint 'ProductsController.GetAll (ReactCRUDAPI)' 
+2024-11-22 15:52:03.9878 Debug 'AppDbContext' disposed. 
+2024-11-22 15:52:03.9878 Debug Disposing connection to database 'ReactCRUDDB' on server '(localdb)\MSSQLLocalDB'. 
+2024-11-22 15:52:03.9878 Debug Disposed connection to database '' on server '' (0ms). 
+2024-11-22 15:52:03.9878 Debug Connection ID "18374686494167138339" disconnecting. 
+2024-11-22 15:52:03.9878 Info Request finished HTTP/2 GET https://localhost:44326/api/products/ - 200 - application/json;+charset=utf-8 12.8400ms 
